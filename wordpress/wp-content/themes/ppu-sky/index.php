@@ -12,8 +12,8 @@
 
 <?php
 
-    $myName = "Brad";
+    $names = array("Brad", "Johe", "Jane");
 
 ?>
 
-<h2><?php echo $myName; ?></h2>
+<h2><?php echo $names[0]; ?></h2>
