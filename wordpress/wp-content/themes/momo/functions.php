@@ -5,3 +5,8 @@ function univ_files() {
 }
 
 add_action( 'wp_enqueue_scripts', 'univ_files' );
+
+function univ_feats(){
+    add_theme_support(  );
+}
+add_action( 'after_setup_theme', 'univ_feats' );
