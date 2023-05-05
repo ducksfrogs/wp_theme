@@ -3,6 +3,7 @@
 <html>
     <head>
         <?php wp_head(  ); ?>
+        <title><?php wp_ ?></title>
     </head>
     <body>
         
