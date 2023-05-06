@@ -1,8 +1,5 @@
 <?php
-
-
 get_header(  );
-
 ?>
 
     <div class="page-banner">
@@ -30,11 +27,11 @@ get_header(  );
       <p><a class="btn btn--blue" href="<?php the_permalink(  ); ?>">continu reading</a></p>
     </div>
   </div>
-</div>
 <?php }
   echo paginate_links(  );
 ?>
 
+</div>
 <?php
 get_footer( );
 
