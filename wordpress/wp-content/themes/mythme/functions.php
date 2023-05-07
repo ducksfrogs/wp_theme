@@ -15,3 +15,4 @@ function my_features() {
 }
 
 add_action( 'after_setup_theme', 'my_features' );
+
