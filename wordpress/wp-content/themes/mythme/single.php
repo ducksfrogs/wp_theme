@@ -16,7 +16,7 @@ while(have_posts(  )){
       </div>
     </div>
     <div class="container container--narrow page-section">
-    metabox
+      momo
       <div class="metabox metabox--position-up metabox--with-home-link">
         <p>
           <a class="metabox__blog-home-link" href="<?php echo site_url( '/blog' ); ?>"><i class="fa fa-home" aria-hidden="true"></i> blog home <?php echo get_the_title(); ?></a> <span class="metabox__main"><?php the_title(  );?></span>
