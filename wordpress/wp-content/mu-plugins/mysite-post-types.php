@@ -3,6 +3,7 @@
 function event_post() {
     register_post_type( 'event', array(
         'public' => true,
+        'show_in_rest' => true,
         'labels' => array(
             'name' => "Events",
             'add_new_item' => "New Event",
